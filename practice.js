@@ -7,9 +7,11 @@
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
       //Answer
-      /*implicit
-      explicit
-      default*/
+      /*
+      context- frame in which code works
+      implicit- look left of dot,
+      explicit- use .bind, when implicit doesn't work so well
+      default- if your context if global window, avoid this*/
 
   // 3) What is the difference between call and apply?
 
